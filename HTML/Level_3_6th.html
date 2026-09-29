@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table in HTML -->
+        <!--
+            tr : Table Row
+            th : Table Header
+            td : Table Data
+         -->
+    <h1>Table in HTML</h1>
+    <table border="1">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody> 
+        
+            <tr>
+                <td>1</td>
+                <td>Ayush</td>
+                <td>20</td>
+                <td>Delhi</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rohit</td>
+                <td>21</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rahul</td>
+                <td>22</td>
+                <td>Bangalore</td>
+            </tr>
+         </tbody>
+    <!--<thead> : Table Head
+        <tbody> : Table Body
+        <tfoot> : Table Footer
+    -->
+
+    Colspan and Rowspan Attributes in HTML
+    <h1>Colspan and Rowspan Attributes in HTML</h1>
+    <table border="1">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody> 
+        
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Ayush</td>
+                <td>20</td>
+                <td>Delhi</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Rohit</td>
+                <td>Mumbai</td>
+            </tr>
+
+         </tbody>
+
+         <hr>
+
+         <table border="1">
+            <hr>
+            <caption>Food Menu</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">item</th>
+                    <th colspan="2">Price</th>
+                    
+
+                </tr>
+                <tr>
+                    <th>INR</th>
+                    <th>USD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pizza</td>
+                    <td>200</td>
+                    <td>2.5</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Burger</td>
+                    <td>100</td>
+                    <td>1.5</td>
+                  
+                </tr>
+
+                <tr>
+                    <td>Pasta</td>
+                    <td>150</td>
+                    <td>2.0</td>
+                   
+                </tr>
+            </tbody>   
+            <tfoot background-color="yellow">
+                <tr>
+                    <td>Sum</td>
+                    <td>450</td>
+                    <td>6.0</td>
+
+                
+                </tr>
+                <tr>
+                    <td colspan="3">All prices are inclusive of taxes.</td>
+                </tr>   
+            </tfoot>
+         </table>
+         <hr>
+
+        <h1>Practice Question : 5</h1>
+        <table border = "1">
+            <caption>A test with merged cells</caption>
+            <thead>
+                <tr> 
+                    <th rowspan="2">Gender</th>
+                    <th colspan="2">Average  </th>
+                    <th rowspan="2"> Red Eyes</th>
+                </tr>
+                <tr>  
+                    <th> Height</th>
+                    <th> Weight</th>
+                </tr>
+
+                </thead>
+            <tbody>
+                <tr>
+                    <td>Male</td>
+                    <td>5'9"</td>
+                    <td>160 lbs</td>
+                    <td>40%</td>
+
+                </tr>
+
+                <tr>
+                    <td>Female</td>
+                    <td>5'4"</td>
+                    <td>130 lbs</td>
+                    <td>30%</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <!-- Forms in HTML -->
+        <h1>Forms in HTML</h1> 
+        <h2>Form Elements</h2>
+        <h4>Input Types and Labels in HTML Forms</h4>
+        <p>Forms are an essential part of web development, allowing users to input data and interact with websites. HTML provides various form elements, including input types and labels, to create user-friendly forms. Here are some common input types and their corresponding labels:</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+
+        <hr>
+
+        <!-- Placeholder Attribute in HTML -->
+        <h1>Placeholder Attribute in HTML</h1>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <input type="submit" value="Submit">
+            <button type="reset">Reset</button>
+            <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
+        </form>
+
+
+        <!--Button Element in HTML -->
+        <h1>Button Element in HTML</h1>
+        <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
+
+
+
+
+
+
+    </body>
+</html>
