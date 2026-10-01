@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: rgb(20, 17, 11);
+    font-size: 24px;
+
+}
+h2{
+    text-align: center;
+    color: #88652c;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: league spartan;
+    letter-spacing: 2px;
+    line-height: 0.2;
+    text-decoration: underline;
+
+}
+
+button{
+    background-color: purple;
+    color: yellow;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
