@@ -6,13 +6,15 @@ h1{
 }
 h2{
     text-align: center;
-    color: #88652c;
+    color: #ffa511;
     font-size: 55px;
     font-weight: 900;
     font-family: league spartan;
     letter-spacing: 2px;
     line-height: 0.2;
     text-decoration: underline;
+    transform: uppercase;
+    /* font-family: Arial, sans-serif; */
 
 }
 
