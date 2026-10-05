@@ -1,0 +1,161 @@
+/* Universal Selector */
+*{
+    background-color: #e8e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Element Selector */
+body{
+    margin-top: 10px;
+    background-color: rgb(25, 19, 31);
+    
+}
+
+h1{
+    color: rgb(28, 14, 14);
+    text-align: start;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Id Selector */
+#login, #signup{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#login:hover, #signup:hover{
+    background-color: #45a049;
+}
+
+/* Class Selector
+ */
+.upvote{
+    background-color: #210756;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}   
+
+/* descendent selector */
+.post a{
+    color: #976720;
+    text-decoration: none;
+    background-color: #eeebf1;
+}
+
+/* multiple labels selector */
+nav ul li{
+    color:#58258e
+}
+
+nav ul li a{
+    color: #c72b2b;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: underline;   
+    ;
+}
+
+/* Adjacent sibling  combinator selector */
+.post + .post {
+    margin-top: 20px;
+}
+
+p + h3 {
+    color: #ff0000;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+/* Child combinator selector */
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div > input {
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px solid #ba2525;
+    border-radius: 4px;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    width: 200px;
+    color:#ba2525;
+}
+
+input[type="password"] {
+    width: 200px;
+    color:#107d23;
+}
+
+input[type] {
+    background-color: #ddbbbb;
+}
+
+/* Using pseudo code */
+
+button:hover{
+    background-color: yellow;
+    color: rgb(246, 230, 246);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    
+}   
+
+h3:hover{
+    color: rgb(246, 230, 246);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+        /* active pseudo code  */
+button:active{
+    background-color: rgb(109, 105, 109);
+    color: yellow;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}   
+
+/* checked pseudo code */
+
+input[type="checkbox"]:checked + label {
+    color: rgb(246, 230, 246);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.upvote:checked + label {
+    color: rgb(246, 230, 246);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* nth-of-type pseudo code */
+p:nth-of-type(2) {
+    color: rgb(246, 230, 246);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h3:nth-of-type(2n) {
+    color: rgb(246, 230, 246);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
