@@ -1,0 +1,15 @@
+/* Alpha value for colour  */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000a0; 
+}
+h1{
+    color: rgba(0, 0, 255, 0.5); 
+    font-size: 19px;
+
+}
+
+#opacity{
+    opacity: 0.4; 
+}
