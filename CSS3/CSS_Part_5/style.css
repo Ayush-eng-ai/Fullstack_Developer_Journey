@@ -1,0 +1,29 @@
+section {
+    margin-top: 100px;
+}
+
+/* transform */
+div{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    
+    background-color: rgb(166, 49, 49);
+    border: 5px solid rgb(13, 9, 9);
+    /* border-width: 3px solid red; */
+    margin-top: 5px;
+}
+
+div:nth-of-type(2n){
+    background-color: rgb(50, 70, 201);
+    margin-left: 400px;
+    border: 5px solid rgb(13, 9, 9);
+}
+
+#one {
+    transform: rotate(45deg);
+    /* border: 5px solid red; */
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
