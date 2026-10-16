@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuddle Buddy - Premium Soft Toys Store</title>
+    <style>
+        /* Modern, Clean & Attractive Pastel Styling */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+        body { background-color: #FFF9F9; color: #4A4A4A; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .product-card { background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(255, 182, 193, 0.2); max-width: 450px; width: 100%; overflow: hidden; border: 1px solid #FFE4E1; text-align: center; padding: 24px; transition: transform 0.3s ease; }
+        .product-card:hover { transform: translateY(-5px); }
+        .badge { background: #FFB6C1; color: white; font-weight: bold; font-size: 12px; padding: 6px 14px; border-radius: 50px; display: inline-block; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+        /* Placeholder Image Container */
+        .img-placeholder { width: 100%; height: 300px; background: #FFE4E1; border-radius: 16px; display: flex; justify-content: center; align-items: center; color: #DB7093; font-weight: bold; font-size: 18px; margin-bottom: 20px; position: relative; overflow: hidden; }
+        .img-placeholder::after { content: '🧸'; font-size: 80px; }
+        h1 { font-size: 26px; color: #DB7093; margin-bottom: 8px; }
+        .price-tag { font-size: 22px; font-weight: bold; color: #333; margin-bottom: 10px; }
+        .price-original { text-decoration: line-through; color: #aaa; font-size: 16px; margin-right: 8px; }
+        .price-current { color: #FF69B4; }
+        .shipping-banner { font-size: 13px; color: #2ecc71; font-weight: bold; margin-bottom: 25px; display: flex; justify-content: center; align-items: center; gap: 5px; }
+        /* Interactive Dual Buttons */
+        .btn { display: flex; align-items: center; justify-content: center; width: 100%; padding: 15px; border-radius: 50px; font-size: 16px; font-weight: bold; text-decoration: none; margin-bottom: 12px; transition: all 0.3s ease; cursor: pointer; border: none; }
+        .btn-adopt { background: linear-gradient(135deg, #FF69B4, #FFB6C1); color: white; box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4); }
+        .btn-adopt:hover { background: linear-gradient(135deg, #FF4500, #FF69B4); transform: scale(1.02); }
+        .btn-whatsapp { background: white; color: #25D366; border: 2px solid #25D366; }
+        .btn-whatsapp:hover { background: #25D366; color: white; transform: scale(1.02); box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3); }
+        .btn svg { margin-right: 10px; fill: currentColor; }
+    </style>
+</head>
+<body>
+
+    <div class="product-card">
+        <span class="badge">🔥 Best Seller</span>
+        
+        <!-- Toy Image Box -->
+        <div class="img-placeholder"></div>
+        
+        <h1>Jumbo Teddy Bear</h1>
+        
+        <div class="price-tag">
+            <span class="price-original">₹1,499</span>
+            <span class="price-current">₹999</span>
+        </div>
+        
+        <div class="shipping-banner">
+            <span>✨</span> Free Delivery Nationwide + Cash on Delivery Available
+        </div>
+
+        <!-- Button 1: Instant Buy -->
+        <a href="#" class="btn btn-adopt">
+            Adopt Me Now 💖
+        </a>
+
+        <!-- Button 2: WhatsApp Bargain (Put your number below) -->
+        <a href="https://wa.me🧸" target="_blank" class="btn btn-whatsapp">
+            <!-- WhatsApp Vector Icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.973 0c3.184.001 6.177 1.239 8.426 3.49 2.248 2.25 3.483 5.245 3.482 8.427-.004 6.625-5.34 11.973-11.916 11.973-2.002-.001-3.972-.501-5.734-1.453L0 24zm6.59-4.846c1.6.95 3.511 1.451 5.467 1.452 5.405 0 9.803-4.381 9.806-9.768.002-2.61-1.012-5.064-2.857-6.91-1.846-1.847-4.3-2.861-6.911-2.862-5.412 0-9.814 4.38-9.817 9.768-.002 1.905.486 3.766 1.417 5.386L2.625 21.43l4.022-1.056z"/></svg>
+            Negotiate Price on WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>

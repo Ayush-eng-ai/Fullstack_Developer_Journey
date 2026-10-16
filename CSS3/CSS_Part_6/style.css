@@ -1,0 +1,27 @@
+*{
+    background-color: #9ab3f2;
+}
+
+h1{
+    color:#120808 blanchedalmond;
+    text-align: center;
+    border-color: #120808;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+div{
+    background-color: #405da9;
+    border-color: #120808;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-shadow: #c31616 1px 2px 6px;
+    color: #120808;
+    display: flex;
+}
