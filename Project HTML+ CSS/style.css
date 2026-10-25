@@ -50,3 +50,61 @@
   overflow-x: hidden;
   transition: 0.5s; */
 }
+
+.sidebar_menu .logo a{
+  position: absolute;
+  left: 100px;
+  color: aliceblue;
+  text-decoration: none;
+  text-shadow: bold;
+
+
+
+
+}
+
+.sidebar_menu .btn_two {
+  color: gray;
+  font-size: 25px;
+  line-height: 60px;
+  position: absolute;
+  left: 275px;
+  opacity: 0;
+
+}
+
+.sidebar_menu .menu {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.sidebar_menu .menu {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+
+}
+
+.sidebar_menu .menu li {
+  margin-top: 6px;
+  padding: 14px 20px;
+}
+
+.sidebar_menu .social_media {
+  position: absolute;
+  left: 25%;
+  bottom: 50px;
+
+
+
+}
+
+.sidebar_menu .social_media l { 
+  color: -moz-only-whitespace;
+  opacity: 0.5;
+  padding: 0 5px;
+
+
+
+}
