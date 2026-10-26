@@ -24,6 +24,9 @@
   background-position: center;
   height: 100vh;
 }
+.btn_two{
+  cursor: pointer;
+}
 
 .btn_one {
   color: white;
@@ -31,10 +34,11 @@
   cursor: pointer;
   font-weight: 700;
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 16px;
   line-height: 60px;
   /* transform: translate(-50%, -50%); */
+  cursor: pointer;
 
 }
 .sidebar_menu {
@@ -43,33 +47,40 @@
   width: 300px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5) ;
-  /* z-index: 1;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s; */
+  /* background-color: #140303; */
+  /* overflow-x: hidden; */
+  /* transition: 0.5s; */
 }
+ 
+.sidebar_menu .logo {
+  margin-top: 10px;
+}
+
 
 .sidebar_menu .logo a{
   position: absolute;
-  left: 100px;
-  color: aliceblue;
+  left: 60px;
+  color: rgb(246, 250, 253);
   text-decoration: none;
   text-shadow: bold;
-
-
+  font-size: 30px;
+  font: bold;
+  cursor: pointer;
 
 
 }
 
 .sidebar_menu .btn_two {
-  color: gray;
+  color: rgb(223, 179, 179);
   font-size: 25px;
   line-height: 60px;
   position: absolute;
   left: 275px;
-  opacity: 0;
+  /* opacity: 0; */
+  cursor: pointer;
 
 }
 
@@ -77,34 +88,67 @@
   position: absolute;
   width: 100%;
   top: 80px;
+  font-size: 20px;
 }
 
-.sidebar_menu .menu {
-  position: absolute;
-  width: 100%;
-  top: 80px;
-
-}
 
 .sidebar_menu .menu li {
+  color: aliceblue;
   margin-top: 6px;
   padding: 14px 20px;
+  
 }
+
+.sidebar_menu .menu a {
+  color: aliceblue;
+  left: 30px;
+  text-decoration: none;
+  
+
+}
+
 
 .sidebar_menu .social_media {
   position: absolute;
   left: 25%;
   bottom: 50px;
+}
 
+.sidebar_menu .social_media a {
+  color: white;
+  opacity: 0.5;
+  padding: 0 5px;
+}
 
+#check {
+  opacity: 0;
+}
+
+.sidebar_menu .menu li:hover {
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+  color: brown;
+}
+
+.btn_one i:hover {
+  font-size: 40px;
+  color: blueviolet;
 
 }
 
-.sidebar_menu .social_media l { 
-  color: -moz-only-whitespace;
-  opacity: 0.5;
-  padding: 0 5px;
+.btn_two i:hover {
+  font-size:30px;
+}
 
+.btn_one{
+  cursor: pointer;
+}
 
+.sidebar_menu .social_media i:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: aqua;
+}
 
+#check:checked ~ .sidebar_menu {
+  left: 0;
 }
