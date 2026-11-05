@@ -78,6 +78,8 @@ a{
     line-height: 2.5rem;
     /* opacity: 0.5; */
     /* justify-content: center; */
+    opacity: 0.5;
+    padding: 0.5rem 0.7rem;
 
 }
 .nav-option:hover {
