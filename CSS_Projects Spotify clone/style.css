@@ -73,7 +73,7 @@ a{
     line-height: 2.5rem;
     /* opacity: 0.5; */
     /* justify-content: center; */
-    opacity: 0.5;
+    opacity: 0.7;
     padding: 0.5rem 0.7rem;
 
 }
@@ -102,8 +102,43 @@ a{
     height: 100%;
 }
 
+.icons i:hover {
+    opacity: 1;
+}
+
 .options{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.25rem 0 0.5rem 0;
+    padding: 0.75rem 1.25rem;
+
+}
+
+.box-p1 {
+    font-size:1rem;
+    font-weight: 500;
+
+}
+
+.box-p2 {
+    font-size:0.75rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: #f0f5f2;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
 }
