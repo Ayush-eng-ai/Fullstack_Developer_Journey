@@ -19,7 +19,7 @@ Body {
 }
 
 .sidebar {
-    background-color: #000;
+    background-color: #bbb934;
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
@@ -96,11 +96,19 @@ a{
     border-radius: 1rem;
     margin-top: 0.5rem;
     padding: 0.75rem;
-    width: 100%;
+    width: 95%;
     display: flex;
+    flex-direction: column;
     padding: 0.5rem 0.7rem;
-    padding-left: 1rem;
+    /* padding: 0.5rem 0.7rem; */
+    padding-right: 0.7rem;
     height: 100%;
+    /* margin-right:  */
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
 }
 
 .icons i:hover {
@@ -110,12 +118,13 @@ a{
 .options{
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
 }
 
 .box{
     background-color: #232323;
-    height: 8rem;
+    min-height: 8rem;
+    height: auto;
     border-radius: 0.75rem;
     margin: 0.25rem 0 0.5rem 0;
     padding: 0.75rem 1.25rem;
