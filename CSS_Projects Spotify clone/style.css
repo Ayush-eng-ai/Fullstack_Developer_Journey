@@ -156,7 +156,6 @@ a{
 
 .nav-item {
     margin-right: 1rem;
-
 }
 
 @media (max-width:1000px) {
@@ -167,14 +166,27 @@ a{
 
 .card-container {
     display: flex;
-    background-color: #232323;
-    
+    background-color: #232323;  
 }
 
 .card-img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     border-radius: 0.75rem;
-    padding: 0.5rem 0.5rem 0 0.5rem;
-
+    /* padding: 0.5rem 0.5rem 0 0.5rem; */
 }
+ 
+.card-title {
+    font-size:600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+
+
+
+
+
