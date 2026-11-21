@@ -273,6 +273,12 @@ sticky-nav-options {
     align-items: center;
 }
 
+.player-control-icon {
+    height: 1rem;
+    margin-right: 2rem;
+    opacity:0.7;
+}
+
 
 
 
