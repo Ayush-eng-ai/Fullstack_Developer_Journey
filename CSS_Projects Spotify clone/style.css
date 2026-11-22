@@ -279,6 +279,11 @@ sticky-nav-options {
     opacity:0.7;
 }
 
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+
 
 
 
